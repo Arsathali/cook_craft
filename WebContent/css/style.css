@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+
+    .search-wrapper {
+      width: 700px;
+    }
+
+    .search-bar {
+      background-color: #fff;
+      border-radius: 50px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      position: relative;
+      z-index: 2;
+    }
+
+    .search-bar input {
+      border: none;
+      outline: none;
+      flex: 1;
+      font-size: 1.1rem;
+      padding: 10px 15px;
+      border-radius: 50px;
+      background: transparent;
+    }
+
+    .search-icon {
+      background: linear-gradient(to right, #7a5fff, #01c8ee);
+      color: white;
+      border-radius: 50%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(122, 95, 255, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .search-icon:hover {
+      transform: scale(1.5);
+    }
+
+    .search-column h6 {
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .search-column i {
+      color: #7a5fff;
+    }
+
+    .search-column ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .search-column li {
+      padding: 4px 0;
+      color: #333;
+      font-size: 0.95rem;
+    }
+    
+ 
+   .category-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+
+.recipe-card {
+  background-color: #ffffff;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.recipe-img-wrapper {
+  height: 200px;
+  overflow: hidden;
+  transition: transform 0.4s ease-in-out;
+}
+
+.recipe-card img {
+  transition: transform 0.4s ease-in-out;
+}
+
+.recipe-card:hover img {
+  transform: scale(1.1);
+}
+
+.recipe-details {
+  background: white;
+  transition: 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Glowing Button inside Card */
+.btn-glow {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 15px #ff5722;
+  transform: scale(1.05);
+}
+
+
+   
