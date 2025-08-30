@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DbConnection {
 
 	  private static String name ="root";
-	  private static String password = "Abdevilliers17";
+	  private static String password = "QkYWUmHRACxKUKihFrlQLzdeCvDFbexd";
 	  private static Connection connection = null;
-	  private static String url = "jdbc:mysql://localhost:3306/cook_craft";
+	  private static String url = "jdbc:mysql://switchback.proxy.rlwy.net:33714/railway";
 	  
 	  public static Connection getConnection() throws ClassNotFoundException , SQLException{
 		  
