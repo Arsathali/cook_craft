@@ -87,7 +87,7 @@
     <!-- Title -->
     <div class="text-center mb-5">
         <h2 class="fw-bold">Discover Delicious Recipes</h2>
-        <p class="text-muted fs-5">Handpicked dishes just for your cravings</p>
+        <p class="text-muted fs-5">Handpicked Dishes Just for your cravings</p>
     </div>
 
     <!-- Recipe Cards -->
